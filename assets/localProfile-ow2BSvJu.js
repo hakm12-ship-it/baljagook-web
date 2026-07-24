@@ -1,0 +1,1 @@
+import{_ as e,i as t,v as n}from"./index-C9V-eRC-.js";var r=[`achv-v1`,`sido-badges-v1`,`missions-v1`,`friend-v1`,`streak-v1`,`minigame-day-v1`,`records-v1`];function i(){for(let t of r)if(n(t),e(t)!==null)throw Error(`기기 전용 데이터 삭제 실패: ${t}`)}async function a(){await t(),i()}export{a as clearLocalProfileData};
