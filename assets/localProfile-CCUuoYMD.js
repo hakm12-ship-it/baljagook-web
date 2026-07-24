@@ -1,0 +1,1 @@
+import{i as e,r as t}from"./storage-CFtQ_uBt.js";import{a as n}from"./index-BrMvgzn1.js";var r=[`achv-v1`,`sido-badges-v1`,`missions-v1`,`friend-v1`,`streak-v1`,`minigame-day-v1`,`records-v1`];function i(){for(let n of r)if(e(n),t(n)!==null)throw Error(`기기 전용 데이터 삭제 실패: ${n}`)}async function a(){await n(),i()}export{a as clearLocalProfileData};
